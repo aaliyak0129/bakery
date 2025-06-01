@@ -24,9 +24,9 @@ function Cards() {
    <Card.Body>
     <img src="https://i.pinimg.com/736x/11/cd/7a/11cd7a06d14a3db876db81f08a7cd508.jpg" alt="" height={"250px"} width={"250px"} />
         <Card.Title>Card Title</Card.Title>
-        <Card.Text>
+        {/* <Card.Text>
           Some quick example text to build on the card title 
-        </Card.Text>
+        </Card.Text> */}
             <Button variant="primary" style={{marginTop:"10px",marginLeft:"55px",backgroundColor:"pink"}}><h6 style={{color:"black",fontFamily:"cursive"}}>Add to cart</h6>
         </Button>
       </Card.Body>
