@@ -7,6 +7,7 @@ import Service from './Components/Service'
 import Chefsection from './Components/Chefsection'
 import Customer from './Components/Customer'
 import Footer from './Components/Footer'
+import Videoslider from './Components/Videoslider'
 
 function App(){
   return (
@@ -14,6 +15,7 @@ function App(){
     <Header/>
 
 <Welcome/>
+<Videoslider/>
 <Cards/>
 <Highlight/>
 <Service/>

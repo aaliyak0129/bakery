@@ -10,6 +10,7 @@ function Customer() {
 
       <div class="card">
         <div class="profile">
+          
           <img src="https://i.pinimg.com/736x/8f/f4/d8/8ff4d85a8c64c9678334dd0f87f2899a.jpg" alt="Liam Parker" />
           <div>
             <h4>Liam Parker</h4>

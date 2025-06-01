@@ -18,7 +18,9 @@ function Welcome() {
         <button className="pink-button">Know more about us</button>
       </div>
       <div className="bakery-image">
-        <img src="https://cakecious2.bolvosites.com/demo1/wp-content/uploads/sites/7/2018/06/welcome-right.jpg" alt="Bakery" />
+<video src="/v1.mp4" autoPlay loop muted playsInline width="600px" style={{height:"500px"}} />
+
+
       </div>
     </div>
   )

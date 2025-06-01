@@ -5,7 +5,8 @@ import Card from 'react-bootstrap/Card';
 
 function Highlight() {
   return (
-<Container>
+    <>
+    <Container>
    <h1 style={{textAlign:"center",color:"black",fontFamily:"cursive",fontWeight:"bold",marginTop:"20px"
    }}>CUP CAKES</h1>
      <Row className='gap-4'>
@@ -52,6 +53,8 @@ function Highlight() {
        </Card>
     </Row>
 </Container>
+</>
+
   )
 }
 
