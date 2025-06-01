@@ -26,7 +26,7 @@ function Highlight() {
               border: " solid 5px pink",
             }}
           >
-            {" "}
+           
             <Card.Body>
               <div
                 style={{
@@ -100,7 +100,7 @@ function Highlight() {
                 <p>STRAWBERRY flavor </p>
                 <p>
                   <b> RS:2500</b>
-                </p>{" "}
+                </p>
               </Card.Text>
               <div
                 style={{
@@ -151,7 +151,7 @@ function Highlight() {
                 <p>BANANA flavor</p>
                 <p>
                   <b> RS:2500</b>
-                </p>{" "}
+                </p>
               </Card.Text>
               <div
                 style={{

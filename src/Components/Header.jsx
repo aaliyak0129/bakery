@@ -52,8 +52,8 @@ const Header = () => {
     </Navbar>
     <Carousel fade>
       <Carousel.Item>
- 
-<img src="https://i.pinimg.com/736x/b1/ef/bf/b1efbf50a3157c7d071184ecfbe10024.jpg" alt="" width={"100%"} height={"500px"}/>
+
+<img src="https://thumbs.dreamstime.com/b/stunning-pink-abstract-th-birthday-cake-wallpaper-vibrant-texture-design-mobile-desktop-backgrounds-perfect-elevate-your-phone-356036692.jpg" alt="" width={"100%"} height={"500px"} />
       <Carousel.Caption>
           <h3>First slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -68,7 +68,8 @@ const Header = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-<img src="https://thumbs.dreamstime.com/b/stunning-pink-abstract-th-birthday-cake-wallpaper-vibrant-texture-design-mobile-desktop-backgrounds-perfect-elevate-your-phone-356036692.jpg" alt="" width={"100%"} height={"500px"} />
+
+ <img src="https://i.pinimg.com/736x/b1/ef/bf/b1efbf50a3157c7d071184ecfbe10024.jpg" alt=""  width={"100%"} height={"500px"}/> 
         <Carousel.Caption>
           <h3>Third slide label</h3>
           <p>
