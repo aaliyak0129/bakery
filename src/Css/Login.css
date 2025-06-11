@@ -1,0 +1,87 @@
+
+
+.login-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+background-image: url(https://png.pngtree.com/background/20230426/original/pngtree-row-of-cakes-on-a-counter-picture-image_2481823.jpg);
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Glass effect box */
+.glass-box {
+  width: 450px;
+  padding: 40px;
+  background: rgba(252, 31, 153, 0.216);
+  border-radius: 15px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 0 10px rgba(252, 31, 153, 0.979);
+  border: 2px solid rgba(252, 31, 153, 0.979);
+  color: white;
+
+  animation: floatBox 4s ease-in-out infinite; /* 👈 added line */
+}
+@keyframes floatBox {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+
+.glass-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 55px;
+}
+
+/* Labels & inputs */
+.glass-box label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.glass-box input[type="email"],
+.glass-box input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.25);
+  color: #fff;
+  font-size:20px;
+  outline: none;
+  margin-bottom: 15px;
+}
+
+.glass-box input::placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Submit button */
+.glass-box input[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ec407a;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.glass-box input[type="submit"]:hover {
+  background-color: #d81b60;
+}

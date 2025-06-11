@@ -1,27 +1,35 @@
 import React from 'react'
-import Header from './Components/Header'
-import Welcome from './Components/welcome'
-import Cards from './Components/Cards'
-import Highlight from './Components/Highlight'
-import Service from './Components/Service'
-import Chefsection from './Components/Chefsection'
-import Customer from './Components/Customer'
-import Footer from './Components/Footer'
-import Videoslider from './Components/Videoslider'
+import Home from './Pages/Home'; 
 
-function App(){
+import UserList from './Pages/Admin/UserList'; // <-- new
+import { BrowserRouter,Routes,Route } from 'react-router-dom'
+import Layout from './Layout';
+import Showcart from './Components/Showcart';
+import SignUp from './Pages/Signup';
+import Login from './Pages/Login';
+import OrderList from './Pages/Admin/OrderList';
+import AdminPanel from './Pages/Admin/AdminPanel';
+import AdminLogin from './Pages/Admin/AdminLogin';
+const App=()=>{
   return (
     <>   
-    <Header/>
+ 
 
-<Welcome/>
-<Videoslider/>
-<Cards/>
-<Highlight/>
-<Service/>
-<Chefsection/>
-<Customer/>
-<Footer/>
+
+<Routes>
+  <Route path="/" element={<Layout />}>
+    <Route index element={<Home />} /> 
+      <Route path='/Showcart' element={<Showcart/>} />
+          <Route path='/Signup' element={<SignUp/>} />
+                    <Route path="/Login" element={<Login/>} />
+
+<Route path="/admin/orders" element={<OrderList />} />
+ <Route path="/admin/login" element={<AdminLogin />} />
+        <Route path="/admin/panel" element={<AdminPanel />} />
+  </Route>
+    
+</Routes>
+
   </>
 
   )
